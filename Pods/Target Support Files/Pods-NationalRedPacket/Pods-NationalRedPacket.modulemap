@@ -1,0 +1,6 @@
+framework module Pods_NationalRedPacket {
+  umbrella header "Pods-NationalRedPacket-umbrella.h"
+
+  export *
+  module * { export * }
+}

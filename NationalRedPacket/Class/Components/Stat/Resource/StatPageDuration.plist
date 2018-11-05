@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HomePopularFeedListViewController</key>
+	<string>HOME_LONG</string>
+	<key>HomeFollowFeedListViewController</key>
+	<string>ATTENTION_PAGE_LONG</string>
+	<key>XLHomeVideoFeedListViewController</key>
+	<string>VIDEO_PAGE_LONG</string>
+	<key>XLHomeImageFeedListViewController</key>
+	<string>IMAGE_PAGE_LONG</string>
+	<key>UserLikeFeedListViewController</key>
+	<string>MYPRAISE_LONG</string>
+	<key>DiscoveryViewController</key>
+	<string>FIND_PAGE_LONG</string>
+	<key>UserCollectionFeedListViewController</key>
+	<string>MYCOLLECTION_LONG</string>
+	<key>XLMyUploadViewController</key>
+	<string>MY_UPLOAD_LONG</string>
+	<key>UserFollowingViewController</key>
+	<string>USER_FOLLOWING_VIEW_LONG</string>
+	<key>SettingsViewController</key>
+	<string>USER_SETUP_VIEW_LONG</string>
+	<key>UserFeedbackViewController</key>
+	<string>USER_FEEDBACK_VIEW_LONG</string>
+	<key>TotalAssetViewController</key>
+	<string>USER_INCOME_VIEW_LONG</string>
+	<key>NIMSessionListViewController</key>
+	<string>MSG_PAGE_LONG</string>
+	<key>XLSessionFansViewController</key>
+	<string>FANS_PAGE_LONG</string>
+	<key>XLSessionVisitorViewController</key>
+	<string>VISITOR_PAGE_LONG</string>
+	<key>XLSessionLikedViewController</key>
+	<string>RECEIVE_LIKE_PAGE_LONG</string>
+	<key>XLSessionCommentViewController</key>
+	<string>RECEIVE_COMMENT_PAGE_LONG</string>
+</dict>
+</plist>

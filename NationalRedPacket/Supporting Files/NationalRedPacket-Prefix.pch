@@ -1,0 +1,45 @@
+//
+//  NationalRedPacket-Prefix.pch
+//  NationalRedPacket
+//
+//  Created by 孙明悦 on 2017/5/31.
+//  Copyright © 2017年 孙明悦. All rights reserved.
+//
+//  注意：不要放经常变动的文件
+
+#ifndef NationalRedPacket_Prefix_pch
+#define NationalRedPacket_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "XLCategory.h"
+#import "XLConst.h"
+#import "XLMacro.h"
+#import "XLStat.h"
+#import "XLRouterConst.h"
+#import "XLRouter.h"
+#import "NSURL+Creation.h"
+
+#import "Network.h"
+#import "XLLoginManager.h"
+#import "XLNIMService.h"
+#import "XLUserManager.h"
+
+#import "BaseNavigationController.h"
+#import "XLLoadingView.h"
+#import "XLEmptyDataView.h"
+#import "XLReloadFailView.h"
+#import "XLRefreshAutoGifFooter.h"
+
+#import "extobjc.h"
+#import "TalkingData.h"
+#import <YYModel/YYModel.h>
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+
+#endif /* NationalRedPacket_Prefix_pch */

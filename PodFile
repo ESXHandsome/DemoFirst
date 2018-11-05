@@ -1,0 +1,45 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'NationalRedPacket' do
+    
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'SDWebImage/WebP'
+    pod 'SDWebImage/GIF'
+    
+    pod 'AliyunOSSiOS'
+    
+    pod 'FMDB'
+    
+    pod 'YYModel'
+    
+    pod 'RNCryptor-objc'
+    pod 'GTMBase64'
+    pod 'UICKeyChainStore'
+    
+    pod 'FDFullscreenPopGesture'
+    pod 'FLAnimatedImage'
+    pod 'MBProgressHUD'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'lottie-ios'
+    pod 'RTRootNavigationController'
+    pod 'TTTAttributedLabel'
+    pod 'TYCyclePagerView'
+    pod 'UITableView+FDTemplateLayoutCell'
+    
+    pod 'WechatOpenSDK'
+    pod 'KVOController'
+    
+    pod 'NIMSDK_LITE'
+    pod 'M80AttributedLabel'
+    pod 'TZImagePickerController'
+    pod 'Toast'
+    
+end
+
+target 'NationalRedPacketTests' do
+    pod 'FMDB'
+end
+

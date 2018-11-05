@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://v1.am72.net/htdocs/application/h5/done.php -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="wap-font-scale" content="no">
+    <meta name="viewport"
+          content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>feedback_result</title>
+    <link rel="stylesheet" href="./done.css">
+    <script type="text/javascript" src="./jquery-2.0.3.min.js"></script>
+    
+</head>
+<body style="">
+<div class="out">
+    <img src="./done.htm" class="icon">
+    <p class="title">投诉已提交</p>
+    <!--<p class="content">你的投诉已提交，投诉单号：860018466，我们会在7个工作日内处理。感谢你的支持。</p>-->
+    <br></br>
+    <p class="refund">关闭</p>
+
+</div>
+<script>
+    $('.refund').click(function () {
+                       
+       window.webkit.messageHandlers.Close.postMessage(null);
+       
+    });
+
+</script>
+
+
+</body>
+</html>

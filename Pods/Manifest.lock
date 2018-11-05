@@ -1,0 +1,162 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.4)
+  - FDFullscreenPopGesture (1.1)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GTMBase64 (1.0.1)
+  - KVOController (1.2.0)
+  - libwebp (0.6.1):
+    - libwebp/core (= 0.6.1)
+    - libwebp/dec (= 0.6.1)
+    - libwebp/demux (= 0.6.1)
+    - libwebp/dsp (= 0.6.1)
+    - libwebp/enc (= 0.6.1)
+    - libwebp/mux (= 0.6.1)
+    - libwebp/utils (= 0.6.1)
+    - libwebp/webp (= 0.6.1)
+  - libwebp/core (0.6.1):
+    - libwebp/webp
+  - libwebp/dec (0.6.1):
+    - libwebp/core
+  - libwebp/demux (0.6.1):
+    - libwebp/core
+  - libwebp/dsp (0.6.1):
+    - libwebp/core
+  - libwebp/enc (0.6.1):
+    - libwebp/core
+  - libwebp/mux (0.6.1):
+    - libwebp/core
+  - libwebp/utils (0.6.1):
+    - libwebp/core
+  - libwebp/webp (0.6.1)
+  - lottie-ios (2.5.0)
+  - M80AttributedLabel (1.6.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - NIMSDK_LITE (5.2.2)
+  - RNCryptor-objc (3.0.6)
+  - RTRootNavigationController (0.6.7):
+    - RTRootNavigationController/Core (= 0.6.7)
+  - RTRootNavigationController/Core (0.6.7)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+  - SDWebImage/GIF (4.4.0):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SDWebImage/WebP (4.4.0):
+    - libwebp (~> 0.5)
+    - SDWebImage/Core
+  - Toast (4.0.0)
+  - TTTAttributedLabel (2.0.0)
+  - TYCyclePagerView (1.1.0)
+  - TZImagePickerController (2.1.5)
+  - UICKeyChainStore (2.1.1)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - WechatOpenSDK (1.8.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AliyunOSSiOS
+  - FDFullscreenPopGesture
+  - FLAnimatedImage
+  - FMDB
+  - GTMBase64
+  - KVOController
+  - lottie-ios
+  - M80AttributedLabel
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - NIMSDK_LITE
+  - RNCryptor-objc
+  - RTRootNavigationController
+  - SDWebImage
+  - SDWebImage/GIF
+  - SDWebImage/WebP
+  - Toast
+  - TTTAttributedLabel
+  - TYCyclePagerView
+  - TZImagePickerController
+  - UICKeyChainStore
+  - "UITableView+FDTemplateLayoutCell"
+  - WechatOpenSDK
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - FDFullscreenPopGesture
+    - FLAnimatedImage
+    - FMDB
+    - GTMBase64
+    - KVOController
+    - libwebp
+    - lottie-ios
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - NIMSDK_LITE
+    - RNCryptor-objc
+    - RTRootNavigationController
+    - SDWebImage
+    - Toast
+    - TTTAttributedLabel
+    - TYCyclePagerView
+    - TZImagePickerController
+    - UICKeyChainStore
+    - "UITableView+FDTemplateLayoutCell"
+    - WechatOpenSDK
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: e5dcdba99963ca6b43fea863cead49423c5d4c75
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  libwebp: 0f01098c6c17175391af621b2f14150f3ca16e16
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NIMSDK_LITE: 59af3419c2317c407c4cf661faec845196afd104
+  RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
+  RTRootNavigationController: d6aa6cbb78a3eaecea4f6e4df63f15dd887836b8
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TYCyclePagerView: b70858c9b5d0e80e1e3129ff5ceb027eb0f76d44
+  TZImagePickerController: e60a73665cf665c18abd45cdf48e912094eefff5
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8327ebe923cbdbe0b461049f21985fc02315c5c3
+
+COCOAPODS: 1.5.3

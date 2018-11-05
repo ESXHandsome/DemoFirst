@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PacketDetailCell" selectionStyle="default" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="PacketDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VoB-ZO-EbR">
+                        <rect key="frame" x="15" y="13.5" width="45" height="45"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.80784313730000001" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="WQ1-ZY-Vs7"/>
+                            <constraint firstAttribute="height" constant="45" id="kpx-Sp-Tko"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阿欢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajp-Z1-JSt">
+                        <rect key="frame" x="75" y="13.5" width="33" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:19 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psA-Td-qyr">
+                        <rect key="frame" x="75" y="37" width="38" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.66274509803921566" green="0.66274509803921566" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.2元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5A-VI-qES">
+                        <rect key="frame" x="356" y="13.5" width="39" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vk2-HO-TMS">
+                        <rect key="frame" x="322" y="37" width="73" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="手气最佳" image="packet_detail_best">
+                            <color key="titleColor" red="1" green="0.69019607843137254" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VoB-ZO-EbR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0KY-Ou-GFj"/>
+                    <constraint firstItem="Vk2-HO-TMS" firstAttribute="bottom" secondItem="psA-Td-qyr" secondAttribute="bottom" id="9a2-mG-aL9"/>
+                    <constraint firstItem="ajp-Z1-JSt" firstAttribute="leading" secondItem="VoB-ZO-EbR" secondAttribute="trailing" constant="15" id="GYE-S4-D8Y"/>
+                    <constraint firstItem="psA-Td-qyr" firstAttribute="top" secondItem="ajp-Z1-JSt" secondAttribute="bottom" constant="4" id="Tg8-HM-v3H"/>
+                    <constraint firstItem="t5A-VI-qES" firstAttribute="top" secondItem="ajp-Z1-JSt" secondAttribute="top" id="UWw-LW-Skc"/>
+                    <constraint firstAttribute="trailing" secondItem="t5A-VI-qES" secondAttribute="trailing" constant="15" id="WPu-8L-m4j"/>
+                    <constraint firstItem="psA-Td-qyr" firstAttribute="leading" secondItem="ajp-Z1-JSt" secondAttribute="leading" id="eVc-DB-Txu"/>
+                    <constraint firstItem="ajp-Z1-JSt" firstAttribute="top" secondItem="VoB-ZO-EbR" secondAttribute="top" id="gsp-wN-6EI"/>
+                    <constraint firstItem="Vk2-HO-TMS" firstAttribute="top" secondItem="psA-Td-qyr" secondAttribute="top" id="nlR-eH-Cjw"/>
+                    <constraint firstItem="Vk2-HO-TMS" firstAttribute="trailing" secondItem="t5A-VI-qES" secondAttribute="trailing" id="rya-Jz-NfU"/>
+                    <constraint firstItem="VoB-ZO-EbR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="uMd-zZ-bEw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="packetTypeButton" destination="Vk2-HO-TMS" id="rpO-3t-maO"/>
+                <outlet property="userAvator" destination="VoB-ZO-EbR" id="MCP-hE-CU7"/>
+                <outlet property="userGrabTime" destination="psA-Td-qyr" id="Zo3-Ix-yGB"/>
+                <outlet property="userIncome" destination="t5A-VI-qES" id="U6C-32-oxL"/>
+                <outlet property="userNickName" destination="ajp-Z1-JSt" id="dKB-Yf-Bgn"/>
+            </connections>
+            <point key="canvasLocation" x="-81" y="-56.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="packet_detail_best" width="15" height="13"/>
+    </resources>
+</document>

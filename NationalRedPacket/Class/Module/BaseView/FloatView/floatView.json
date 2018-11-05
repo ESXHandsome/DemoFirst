@@ -1,0 +1,23 @@
+{
+    "id":"111",
+	"allPage": "NO"	,
+    "page": ["HomePopularFeedListViewController","FeedVideoDetailViewController","UserViewController"],
+	"appear": 0	,
+	"disappear": 0	,
+	"repeat": "always"	,
+	"appearAnim": "scale_up",
+	"disappearAnim":"scale_down" ,
+	"picUrl": "http://www.xiao688.com/uploads/201308/3331376384153.gif"		,
+	"position": "right_bottom"	,
+	"width": 100		,
+	"height": 100,
+	"marginVertical": 0		,
+    "marginHorizontal":0,
+	"mask": "NO"	,
+	"maskClose": "YES"	,
+	"showClose": "YES"	,
+	"closePosition": "right_bottom",
+	"closePic": ""	,
+	"url": "http://neptune.jipi-nobug.cn/rankListTest.html?inviteCode=3144"		
+}
+

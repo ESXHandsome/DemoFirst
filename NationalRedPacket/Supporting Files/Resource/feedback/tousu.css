@@ -1,0 +1,70 @@
+html{min-width: 320px;}
+body {margin:0; padding:0; font:12px"\5B8B\4F53",sans-serif;background:#ffffff;font-family:黑体;background: ghostwhite;min-width: 320px;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+button{font-family:黑体;}
+a{
+	color: dodgerblue;
+	text-decoration: none;}
+html
+	{
+		height: 100%;
+		width: 100%;
+	}
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background:rgb(242,241,237);
+}
+.content
+{
+	font-size: 14px;
+    line-height: 40px;
+    padding-left: 2%;
+	color: grey;
+}
+.out{
+
+	width: 97%;
+	padding: 0 0 0 3%;
+	background: white;		
+}
+.in{
+	height: 24px;
+	padding: 7px 0;
+	border-bottom: 1px solid gainsboro;
+	position: relative;
+}
+.in img{
+	height: 20px;
+	position: absolute;
+	top: 9px ;
+	right: 3%;
+}
+
+.type
+{
+	line-height: 24px;
+	font-size: 15px;
+}
+.liu
+{
+	font-size: 12px;
+    line-height: 30px;
+    padding-left: 2%;
+}
+.bottom
+{
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	font-size: 13px;
+	color: #61749b;
+}
